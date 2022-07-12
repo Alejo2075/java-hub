@@ -141,13 +141,6 @@ public class Grafo<T> {
                 }
             }
         }
-        for (int i = 0; i < 7; i++) {
-            System.out.print(visitados[i] +" ");
-        }
-
-        for (int i = 0; i < 7; i++) {
-            System.out.print(distancia[i] +" ");
-        }
         return distancia;
     }
 
