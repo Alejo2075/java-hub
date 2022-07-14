@@ -106,10 +106,10 @@ public class Grafo<T> {
     }
 
     void recorrerEnProfundidad(T inicio, boolean[] visitados, LinkedList<T> lista){
+        lista.add(inicio);
         visitados[this.v.indexOf(inicio)] = true;
         for (int i = 0; i < this.v.size(); i++) {
             if(matriz[this.v.indexOf(inicio)][i]>0 && !visitados[i]){
-                lista.add(this.v.get(i));
                 recorrerEnProfundidad(this.v.get(i), visitados);
             }
         }
