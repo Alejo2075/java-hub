@@ -105,8 +105,7 @@ public class Grafo<T> {
         return lista;
     }
 
-    LinkedList<T> recorrerEnProfundidad(T inicio, boolean[] visitados){
-        LinkedList<T> lista = new LinkedList<T>();
+    void recorrerEnProfundidad(T inicio, boolean[] visitados, LinkedList<T> lista){
         visitados[this.v.indexOf(inicio)] = true;
         for (int i = 0; i < this.v.size(); i++) {
             if(matriz[this.v.indexOf(inicio)][i]>0 && !visitados[i]){
@@ -114,7 +113,6 @@ public class Grafo<T> {
                 recorrerEnProfundidad(this.v.get(i), visitados);
             }
         }
-        return lista;
     }
 
     boolean esConexo(){
