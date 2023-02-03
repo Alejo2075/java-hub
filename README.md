@@ -1,2 +1,1 @@
-# Estructura de Datos
-Estructura de Datos
+# Data Structures
