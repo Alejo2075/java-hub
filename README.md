@@ -1,4 +1,4 @@
-# Java Algorithms
+# Java Data Structures and Algorithms
 
 Welcome Java Algorithms and Data Structures project! In this project, we explore fundamental algorithms and data structures commonly used in computer science. The goal is to provide a comprehensive understanding of these concepts and their practical applications.
 
