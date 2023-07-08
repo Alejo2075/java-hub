@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7557c17d-d734-427e-8d8c-d51991b9358d" name="Changes" comment="Added 3 sort algorithms and 2 searches algorithms with its tests">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="7557c17d-d734-427e-8d8c-d51991b9358d" name="Changes" comment="Fixed README">
+      <change afterPath="$PROJECT_DIR$/src/test/java/datastructures/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datastructures/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datastructures/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/searches/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/searches/BinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorts/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorts/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classpath.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/algorithms/searches/BinarySearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/algorithms/searches/BinarySearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/algorithms/sorts/BubbleSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/algorithms/sorts/BubbleSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/classpath.index" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +79,7 @@
       <recent name="searches" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.java in Java_Algorithms">
+  <component name="RunManager" selected="JUnit.All in Java_Algorithms">
     <configuration name="All in Java_Algorithms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Algorithms" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,66 +88,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorts.*" />
+          <option name="PATTERN" value="datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms.sorts" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorts.BubbleSortTest" />
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.LinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorts.*" />
+          <option name="PATTERN" value="datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms.sorts" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorts.InsertionSortTest" />
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.LinkedListTest" />
+      <option name="METHOD_NAME" value="testChange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.QueueTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorts.*" />
+          <option name="PATTERN" value="datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms.sorts" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorts.SelectionSortTest" />
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.StackTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="java in Java_Algorithms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Algorithms" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.java in Java_Algorithms" />
         <item itemvalue="JUnit.All in Java_Algorithms" />
-        <item itemvalue="JUnit.InsertionSortTest" />
-        <item itemvalue="JUnit.SelectionSortTest" />
-        <item itemvalue="JUnit.BubbleSortTest" />
+        <item itemvalue="JUnit.LinkedListTest.testChange" />
+        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.StackTest" />
+        <item itemvalue="JUnit.QueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688848940504</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed README">
+      <created>1688850020505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688850020505</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +221,7 @@
     <MESSAGE value="Added searches algorithms" />
     <MESSAGE value="Added 3 sort algorithms" />
     <MESSAGE value="Added 3 sort algorithms and 2 searches algorithms with its tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 3 sort algorithms and 2 searches algorithms with its tests" />
+    <MESSAGE value="Fixed README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed README" />
   </component>
 </project>

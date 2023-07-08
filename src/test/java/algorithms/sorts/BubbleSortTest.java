@@ -9,7 +9,7 @@ class BubbleSortTest{
      * Tests the bubbleSort method of the BubbleSort class.
      */
     @Test
-    public void TestBubbleSort() {
+    public void testBubbleSort() {
         int[] input = {5, 2, 8, 12, 1};
         int[] expectedOutput = {1, 2, 5, 8, 12};
 
