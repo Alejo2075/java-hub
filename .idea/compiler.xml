@@ -9,5 +9,8 @@
         <module name="Java" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-data-structures-and-algorithms" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>
