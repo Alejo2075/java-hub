@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7557c17d-d734-427e-8d8c-d51991b9358d" name="Changes" comment="Added Heap data structures and its Tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/datastructures/HashTableTest.java" afterDir="false" />
+    <list default="true" id="7557c17d-d734-427e-8d8c-d51991b9358d" name="Changes" comment="Added Heap and HashTable data structures and its Tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/HashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Graph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +73,44 @@
       <recent name="searches" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HashTableTest">
+  <component name="RunManager" selected="JUnit.GraphTest">
     <configuration name="All" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.GraphTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphTest.testAddEdge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.GraphTest" />
+      <option name="METHOD_NAME" value="testAddEdge" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,22 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="datastructures" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.HeapTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.testChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -126,41 +140,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="datastructures" />
       <option name="MAIN_CLASS_NAME" value="datastructures.LinkedListTest" />
-      <option name="METHOD_NAME" value="testChange" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="datastructures" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.SetTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.GraphTest" />
+      <item itemvalue="JUnit.GraphTest.testAddEdge" />
       <item itemvalue="JUnit.HashTableTest" />
-      <item itemvalue="JUnit.HeapTest" />
-      <item itemvalue="JUnit.SetTest" />
       <item itemvalue="JUnit.All" />
-      <item itemvalue="JUnit.LinkedListTest.testChange" />
+      <item itemvalue="JUnit.LinkedListTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HashTableTest" />
+        <item itemvalue="JUnit.GraphTest" />
+        <item itemvalue="JUnit.GraphTest.testAddEdge" />
         <item itemvalue="JUnit.All" />
-        <item itemvalue="JUnit.HeapTest" />
-        <item itemvalue="JUnit.SetTest" />
-        <item itemvalue="JUnit.LinkedListTest.testChange" />
+        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.HashTableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688923897754</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Heap and HashTable data structures and its Tests">
+      <option name="closed" value="true" />
+      <created>1688924906604</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688924906604</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +267,8 @@
     <MESSAGE value="Fixed README" />
     <MESSAGE value="Added Set data structures and its Tests" />
     <MESSAGE value="Added Heap data structures and its Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Heap data structures and its Tests" />
+    <MESSAGE value="Added Heap and HashTable data structures and its Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Heap and HashTable data structures and its Tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
