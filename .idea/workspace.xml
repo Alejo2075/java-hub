@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7557c17d-d734-427e-8d8c-d51991b9358d" name="Changes" comment="Added Set data structures and its Tests">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="7557c17d-d734-427e-8d8c-d51991b9358d" name="Changes" comment="Added Heap data structures and its Tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/datastructures/HashTableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/classpath.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alejo2075 &lt;91127175+alejo2075@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
@@ -54,7 +61,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,13 +75,28 @@
       <recent name="searches" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HeapTest">
+  <component name="RunManager" selected="JUnit.HashTableTest">
     <configuration name="All" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.HashTableTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,21 +111,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="datastructures" />
       <option name="MAIN_CLASS_NAME" value="datastructures.HeapTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="datastructures" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.LinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,19 +148,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.HashTableTest" />
       <item itemvalue="JUnit.HeapTest" />
       <item itemvalue="JUnit.SetTest" />
       <item itemvalue="JUnit.All" />
-      <item itemvalue="JUnit.LinkedListTest" />
       <item itemvalue="JUnit.LinkedListTest.testChange" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HashTableTest" />
+        <item itemvalue="JUnit.All" />
         <item itemvalue="JUnit.HeapTest" />
         <item itemvalue="JUnit.SetTest" />
-        <item itemvalue="JUnit.All" />
         <item itemvalue="JUnit.LinkedListTest.testChange" />
-        <item itemvalue="JUnit.LinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688919946525</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Heap data structures and its Tests">
+      <option name="closed" value="true" />
+      <created>1688923897754</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688923897754</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +260,8 @@
     <MESSAGE value="Added 3 sort algorithms and 2 searches algorithms with its tests" />
     <MESSAGE value="Fixed README" />
     <MESSAGE value="Added Set data structures and its Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Set data structures and its Tests" />
+    <MESSAGE value="Added Heap data structures and its Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Heap data structures and its Tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
