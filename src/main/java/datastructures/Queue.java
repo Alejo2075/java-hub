@@ -1,7 +1,7 @@
 package datastructures;
 
 /**
- * Implementation of a Queue data structure in Java using integers.
+ * Implementation of a Queue data structure in Java.
  */
 public class Queue {
     private Node head;

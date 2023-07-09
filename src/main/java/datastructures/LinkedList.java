@@ -1,7 +1,7 @@
 package datastructures;
 
 /**
- * Implementation of a LinkedList data structure that stores integer values.
+ * Implementation of a LinkedList data structure in Java.
  */
 public class LinkedList {
     private Node head;

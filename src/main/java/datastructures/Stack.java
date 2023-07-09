@@ -1,7 +1,7 @@
 package datastructures;
 
 /**
- * This class implements a Stack data structure using integers.
+ * Implementation of a Stack data structure in Java.
  */
 public class Stack {
     private Node top;
