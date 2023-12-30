@@ -36,7 +36,8 @@ This repository is a comprehensive guide covering crucial programming concepts. 
   - Heaps
   - HashMap
 - 🌐 Graphs
-  -
+  - Undirected Graph
+  - Directed Graph
 - 🌲 Trees
   - Binary Tree
   - Search Binary Tree
