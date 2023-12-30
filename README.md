@@ -32,19 +32,14 @@ This repository is a comprehensive guide covering crucial programming concepts. 
   - Linked Lists
   - Stacks
   - Queues
-  - Circular Queues
-  - Double-Ended Queues (Deque)
-- 🌲 Advanced Structures
-  - Trees
-    - Binary Trees
-    - AVL Trees
-    - Red-Black Trees
-    - Segment Trees
-    - B-Trees
-  - Hash Tables
-  - Graphs
-  - Tries
+  - Sets
   - Heaps
+  - HashMap
+- 🌐 Graphs
+  -
+- 🌲 Trees
+  - Binary Tree
+  - Search Binary Tree
 
 ### 🧩 Design Patterns
 - 🛠️ Creational Patterns
