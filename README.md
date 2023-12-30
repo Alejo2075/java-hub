@@ -66,15 +66,15 @@ This repository is a comprehensive guide covering crucial programming concepts. 
 
 
 ### ☁️ AWS Services
-### Compute Services
+### 💻 Compute Services
 - AWS Lambda: Serverless Java Functions
 - Amazon EC2: Virtual Server Management
 - AWS Elastic Beanstalk: Java Application Deployment
-### Storage and Database Services
+### 🗄️ Storage and Database Services
 - Amazon S3: File Storage and Handling
 - Amazon DynamoDB: NoSQL Database Integration
 - Amazon RDS: Relational Database Service
-### Other Services
+### 🛠️ Other Services
 - Amazon SQS: Message Queuing Service
 - AWS SNS: Notification Service
 - AWS IAM: Identity and Access Management
