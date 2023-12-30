@@ -57,18 +57,13 @@ This repository is a comprehensive guide covering crucial programming concepts. 
   - Adapter Pattern
   - Decorator Pattern
   - Proxy Pattern
-  - Flyweight Pattern
   - Bridge Pattern
-  - Composite Pattern
 - 🎭 Behavioral Patterns
   - Observer Pattern
   - Strategy Pattern
   - Command Pattern
   - Iterator Pattern
-  - State Pattern
-  - Visitor Pattern
-  - Mediator Pattern
-  - Memento Pattern
+
 
 ### ☁️ AWS Services
 ### Compute Services
