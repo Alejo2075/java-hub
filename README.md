@@ -1,6 +1,6 @@
 
 
-# 📚 Table of Contents for Programming Topics
+# 📚 Table of Contents
 
 ## 💻 Algorithms
 - 🔄 Sorting Algorithms
